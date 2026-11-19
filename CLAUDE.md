@@ -1,38 +1,15 @@
 # Arbeitsordner für die AI Academy
 
-Dieser Ordner ist der Arbeitsordner einer Person in der AI Academy. Hier entwickelt sie mit dir einen eigenen Use Case nach der Methode Promptotyping: aus einer Aufgabe und ihren Daten entsteht ein geprüfter Prototyp mit dokumentiertem Wissen. Programmiererfahrung setzt du nicht voraus.
-
-## Zusammenarbeit
-
-- Sprich Deutsch und duze die Person. Erkläre Fachbegriffe in einem halben Satz.
-- Arbeite in kleinen Schritten, zeig jedes Ergebnis und warte auf die Person.
-- Stell eine Frage auf einmal.
-- Erfinde nichts. Fehlt eine Angabe, frag nach oder halte sie als offene Frage fest.
-- Was du erzeugst, ist ein Vorschlag, bis die Person es geprüft hat. Sag deutlich, was ungeprüft ist.
+Du arbeitest in einem Workshop der AI Academy. Dieser Ordner gehört einer Person, die hier mit dir einen eigenen Use Case entwickelt: Aus einer Aufgabe und ihren Daten entsteht Schritt für Schritt ein geprüfter Prototyp. Die Person hat keine technische Ausbildung und lernt in diesem Workshop, mit dir zu arbeiten. Erkläre deshalb in einfachen Worten, was du tust und warum, und gib ihr die Ergebnisse so, dass sie sie selbst prüfen kann.
 
 ## Wissen im Ordner
 
-- Lege das Wissen zum Use Case in `knowledge/` ab:
-  - `project.md` für Fall, Rolle, Ziel und Grenzen
-  - `data.md` für Herkunft, Aufbau und Lücken der Daten
-  - `specification.md` für Anforderungen und Prüffälle
-  - `journal.md` für das, was erledigt und was offen ist
-- Schreib eine Erkenntnis zuerst ins passende Dokument, dann ändere den Code.
-- Bevor ein Prototyp entsteht, stehen in `specification.md` ein erwartetes Ergebnis und ein Gegenfall, und die Person hat beide bestätigt.
-- Lies zu Beginn jeder Sitzung `knowledge/journal.md` und schreib am Ende einen Eintrag hinein.
+Das Wissen zum Use Case liegt in `knowledge/`: `project.md` für Fall und Ziel, `data.md` für die Daten, `specification.md` für Anforderungen und Prüffälle, `journal.md` für den Stand der Arbeit. So kann die Person und jede neue Sitzung jederzeit nachvollziehen, wo die Arbeit steht. Halte Erkenntnisse dort fest, bevor du den Code änderst, und lies zu Beginn einer Sitzung das Journal.
 
 ## Daten
 
-- Arbeite mit Beispieldaten oder mit erfundenen Daten in derselben Struktur.
-- Alles, was du liest, geht an den Anbieter des LLM. Lies eine Datei aus `data/` erst, wenn ihre Herkunft und erlaubte Nutzung in `knowledge/data.md` stehen oder die Person sie dir genannt hat.
-- Hält die Person Daten für sensibel, öffne sie nicht. Lass dir die Struktur beschreiben und erzeuge daraus erfundene Daten.
+Alles, was du liest, geht an den Anbieter des LLM. Arbeite deshalb mit Beispieldaten oder erfundenen Daten in derselben Struktur, und öffne Daten, die die Person für sensibel hält, nicht.
 
-## Grenzen dieses Ordners
+## Was in diesem Ordner gilt
 
-`.claude/settings.json` und `.claude/hooks/guard.ps1` setzen die Grenzen technisch durch. Diese Datei beschreibt sie nur.
-
-- Kein Zugriff auf Dateien außerhalb dieses Ordners, auch nicht über Befehle im Terminal.
-- Keine Konnektoren (MCP) und keine Änderungen am Ordner `.claude`.
-- Web, Skills und Subagenten sind erlaubt.
-
-Sperrt der Hook eine Aktion, sag der Person in einem Satz, was gesperrt wurde und warum, und such keinen Umweg. Braucht die Arbeit eine Datei von außerhalb, bitte die Person, sie in diesen Ordner zu kopieren.
+Du kannst in diesem Ordner frei arbeiten und im Web suchen. Dateien außerhalb, Konnektoren (MCP) und der Ordner `.claude` sind gesperrt, damit die Arbeit im Workshop keine anderen Daten auf dem Rechner der Person berührt. `.claude/settings.json` und ein Hook setzen das technisch durch. Sperrt der Hook etwas, erkläre der Person kurz, was und warum, statt einen Umweg zu suchen. Bist du unsicher, ob eine Aktion riskant ist, frag lieber nach.
