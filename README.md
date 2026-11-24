@@ -26,6 +26,10 @@ A Claude Code session started in this repository itself is confined by the same 
 
 `README-VORLAGE.md` is the common README structure for participant projects, in German. Every project uses the same sections in the same order, so colleagues and the university's IT can read the projects side by side. The table "Technik auf einen Blick" lists languages, dependencies, outside connections and what operation needs.
 
+## UI guide
+
+`UI-LEITFADEN.md` is the yardstick against which Claude reviews and improves a participant project's interface, in German. It condenses the house rules for working interfaces and the visual system of the University of Veterinary Medicine Vienna, read from its public stylesheet without logo or trademark assets.
+
 ## Tests
 
 ```powershell
