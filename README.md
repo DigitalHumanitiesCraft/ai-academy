@@ -22,6 +22,10 @@ The hook comes first because `settings.json` switches it on, after which `.claud
 
 A Claude Code session started in this repository itself is confined by the same guard.
 
+## README template
+
+`README-VORLAGE.md` is the common README structure for participant projects, in German. Every project uses the same sections in the same order, so colleagues and the university's IT can read the projects side by side. The table "Technik auf einen Blick" lists languages, dependencies, outside connections and what operation needs.
+
 ## Tests
 
 ```powershell
