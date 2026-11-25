@@ -30,6 +30,10 @@ A Claude Code session started in this repository itself is confined by the same 
 
 `UI-LEITFADEN.md` is the yardstick against which Claude reviews and improves a participant project's interface, in German. It condenses the house rules for working interfaces and the visual system of the University of Veterinary Medicine Vienna, read from its public stylesheet without logo or trademark assets.
 
+## Example project
+
+`beispiel-dienstplanung/` is an invented participant project (anaesthesia duty planning, fictional data) whose `knowledge/` folder is set up as a small Obsidian vault with `index.md`, `active-work.md` for the current state, `plan.md` for the seven stages, `journal.md` for the history, source notes and templates. It is demonstration material for day 4. `python -I scripts/check_links.py .` inside the folder checks that every relative link target exists.
+
 ## Tests
 
 ```powershell
