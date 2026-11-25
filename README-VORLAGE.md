@@ -52,7 +52,7 @@ Die Angaben stammen aus den Dateien des Projekts, also aus Importen, Script-Tags
 ## Geprüft
 
 - Tests: <wie man sie startet, Ergebnis des letzten Laufs>, Einzelheiten in [knowledge/testing.md](knowledge/testing.md)
-- Sicherheit: <behobene Befunde und offene Risiken in einem Satz>, Einzelheiten in [knowledge/security.md](knowledge/security.md)
+- Sicherheit: <behobene Befunde und offene Risiken in einem Satz>, Einzelheiten in [knowledge/security-report.md](knowledge/security-report.md)
 
 ## Grenzen und offene Fragen
 
